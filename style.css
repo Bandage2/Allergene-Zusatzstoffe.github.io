@@ -464,26 +464,6 @@ ul.tabs{
     width: 4px;
     height: 4px;
 }
-
-::-webkit-scrollbar {
-    width: 4px;
-    height: 4px;
-}
-::-webkit-scrollbar {
-    width: 0.8rem;
-}
-::-webkit-scrollbar-thumb {
-    /* background: #70AF1A; */
-}
 ::-webkit-scrollbar-thumb {
     background: #70AF1A;
-}
-::-webkit-scrollbar-track {
-    /* background: #f1f1f1; */
-}
-::-webkit-scrollbar-track {
-    /* background: #f1f1f1; */
-}
-::-webkit-scrollbar-track {
-    /* background: #f1f1f1; */
 }
