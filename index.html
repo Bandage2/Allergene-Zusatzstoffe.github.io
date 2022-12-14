@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <!--Import Google Icon Font-->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--Import materialize.css-->
+      <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+       <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+      <!--------------------- google fonts------------ -->
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+      <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+      <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+
+    <body>
+      <!-- ----------ingredients Modal start----------- -->
+      <div id="modal-ingredients-0" class="modal modal_box modalForm ingredients-model-view open" tabindex="0" style="z-index: 1003;display: block;opacity: 1;transform: scaleX(1) scaleY(1);">
+        <!-- ----------Top Modal Box start----------- -->
+          <div class="modal_head">
+            <p class="anz-txt"> 
+              <img class="anz-logo" src="img/1.png">
+              <span>Allergene &amp; Zusatzstoffe</span>
+            </p>
+            <div class="vr-hr"></div>
+            <p class="name-recipe">115g Apfel 1 Joghurt</p>
+            <button class="modal_btn modal-close">
+              <img src="img/2.png">
+            </button>
+          </div>
+
+          <div class="container row list-container">
+            <div class="col xl12 side_nav"> 
+              <div class="anzeigen auto_suggestion_check">
+                <p style="display:none">
+                  <label>
+                    <input type="checkbox" class="filled-in auto_suggest" id="auto_suggest" checked="checked">
+                    <span>Vorschläge anzeigen</span>
+                  </label>
+                </p>
+                <div class="auto-check-sec">
+                  <div>
+                    <label class="automatisierte-label"> 
+                      <!-- label custom tooltip -->
+                      <div class="label-custom-tooltip">
+                        <p>Wir haben Standard Allergene &amp; Zusatzstoffe für alle öffentlichen Zutaten ergänzt. Du kannst die Allergene &amp; Zusatzstoffe aber auch pro Rezept individuell überschreiben.</p>
+                      </div>
+                      <!-- label custom tooltip -->
+                      <input type="checkbox" class="filled-in automatisierte" value="automatisierte" data-attr-recipe-id="ihFKKqC251" checked="checked">
+                      <span>Automatisierte Kennzeichnung</span>
+                    </label>
+                  </div>
+
+                  <div>
+                    <label>
+                      <input type="checkbox" class="filled-in individuelle" value="individuelle" data-attr-recipe-id="ihFKKqC251">
+                      <span>Individuelle Kennzeichnung</span>
+                    </label>
+                  </div>
+                </div>
+
+                <div class="zutaten-content">
+                   Zutaten: Apfel, Zwieback (
+                <b>Gluten</b>
+                ,<b>Weizen</b>
+                , mit Antioxidationsmittel, Emulgator), Zwieback (
+                <b>Gluten</b>
+                ,<b>Weizen</b>
+                , mit Antioxidationsmittel, Emulgator), Speck (gewürfelt), Speck (gewürfelt), Speck (gewürfelt), Salatgurke
+                <p></p> 
+                </div>
+              </div>
+<!-- --------------anzeigen auto_suggestion_check End------------------------- -->
+
+<!-- ------------------row tabs-vertical----------------------------- -->
+              <div id="top-0" class="row tabs-vertical">
+                <div class="col s3 tab_side">
+                  <h6 class="sidenav_head">Zutaten</h6>
+                  <ul class="tabs tabs_vert ui-tabs ui-corner-all ui-widget ui-widget-content"> 
+                    <li class="tab tab_vert" id="tag_info_outline-0-Apfel">
+                      <a href="" class="active">
+                        <span data-tooltip="" data-position="bottom" style="display: none" id="Zusatzstoffe_badge_ihFKKqC251_0" class="badge badge_org tooltipped additives_badge">1</span>
+                        <span data-tooltip="1,2,6" data-position="bottom" style="display: block;" id="Allergene_badge_ihFKKqC251_0" class="badge badge_grn tooltipped allergens_badge">3</span>
+                        <span data-tooltip="" style="display: none" data-position="bottom" id="allergens_additives_public_badge_ihFKKqC251_0" class="badge badge_drgreen tooltipped allergens_additives_public_badge">
+                        0</span>Apfel
+                      </a>
+                    </li>
+                    <li class="tab tab_vert" id="tag_info_outline-0-zwieback">
+                      <a href="" style="color: #ccc;">
+                        <span data-tooltip="108,115" data-position="bottom" style="display: block;" id="Zusatzstoffe_badge_ihFKKqC251_1" class="badge badge_org tooltipped additives_badge">2</span>
+                        <span data-tooltip="1,2" data-position="bottom" style="display: block;" id="Allergene_badge_ihFKKqC251_1" class="badge badge_grn tooltipped allergens_badge">2</span>zwieback
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+                <!-- --------Horizontal tab --------- -->
+
+                <div class="col s9 tab_side1">
+                  <div class="row inner_tab">
+                    <div class="col s12">
+                      <ul class="tabs tab_head ui-tabs ui-corner-all ui-widget ui-widget-content">
+                        <li class="tab col s6">
+                          <a href="" class="active allergen_sidebar_text">Allergene</a>
+                        </li>
+                        <li class="tab col s6">
+                          <a href="" class="Zusatzstoffe_sidebar_text">Zusatzstoffe</a>
+                        </li>
+                      </ul>
+                      <div id="allergene-0-0" class="col s12 tab_content allergene_badge active" style="display: block;">
+                        <div>
+                          <p>
+                            <label>
+                              <input type="checkbox" class="filled-in allergens_chk">
+                              <span>
+                                1-<span class="name">Gluten</span>
+                              </span>
+                            </label>
+                          </p>
+
+                          <p>
+                            <label>
+                              <input type="checkbox" class="filled-in allergens_chk">
+                              <span>
+                                2-<span class="name">Gluten/Weizen</span>
+                              </span>
+                            </label>
+                          </p>
+
+                          <p>
+                            <label>
+                              <input type="checkbox" class="filled-in allergens_chk">
+                              <span>
+                                3-<span class="name">Gluten/ Roggen</span>
+                              </span>
+                            </label>
+                          </p>
+
+                          <p>
+                            <label>
+                              <input type="checkbox" class="filled-in allergens_chk">
+                              <span>
+                                4-<span class="name">Gluten/ Gerste</span>
+                              </span>
+                            </label>
+                          </p>
+                          <p>
+                            <label>
+                              <input type="checkbox" class="filled-in allergens_chk">
+                              <span>
+                                5-<span class="name">Gluten/ Hafer</span>
+                              </span>
+                            </label>
+                          </p>
+
+                          <p>
+                            <label>
+                              <input type="checkbox" class="filled-in allergens_chk">
+                              <span>
+                                6-<span class="name">Gluten/ Dinkel</span>
+                              </span>
+                            </label>
+                          </p>
+
+                          <p>
+                            <label>
+                              <input type="checkbox" class="filled-in allergens_chk">
+                              <span>
+                                5-<span class="name">Gluten/ Kamut</span>
+                              </span>
+                            </label>
+                          </p>
+                           <p>
+                            <label>
+                              <input type="checkbox" class="filled-in allergens_chk">
+                              <span>
+                                5-<span class="name">Gluten/ Emmer</span>
+                              </span>
+                            </label>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+
+                   <a href="" class="dir_submitForm btn_yes" style="display: inline-block;">Allergene & Zusatzstoffe speichern</a>
+                  </div>
+                </div>
+              </div>
+<!-- ------------------row tabs-vertical end----------------------------- -->
+            </div>
+          </div>
+        <!----------------list-container end--------------------->
+      </div>
+      <!-- ----------ingredients Modal end----------- -->
+      
+       <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    </body>
+  </html>
