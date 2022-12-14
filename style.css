@@ -423,8 +423,9 @@ ul.tabs{
     padding-left: 16px;
 }
 .col.s12.tab_content.allergene_badge{
-  margin-left: auto !important;
+  margin-left: 20px !important;
   margin-bottom: 20px;
+  margin-top: 15px;
 }
 .tab_content span {
     color: rgba(0, 0, 0, 0.87);
